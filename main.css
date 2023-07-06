@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.navbar {
+    background-color: rgb(247, 116, 9);
+}
+
+#cabecalho .nav .nav-link.active  {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-marcas .nav-link.active:hover {
+    color: rgb(255, 255, 255);
+} 
+
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+.section-title span {
+    color: rgb(250, 5, 5);
+}
+
+#sobre-a-loja, #marcas {
+    background-color: rgb(243, 231, 243);
+}
+
+.text-colared {
+   color:  rgb(247, 116, 9);
+}
+
+.nav-marcas .nav-link.active, 
+#fale-conosco button {
+    background-color:  rgb(247, 116, 9);
+    color: #fff;
+}
+
+.nav-marcas .nav-link:hover {
+    color: rgb(247, 116, 9);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
